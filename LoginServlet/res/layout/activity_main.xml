@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+   android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:paddingRight="@dimen/activity_horizontal_margin"
+   android:paddingTop="@dimen/activity_vertical_margin"
+   android:paddingBottom="@dimen/activity_vertical_margin" 
+   android:background="@drawable/background"
+   tools:context=".MainActivity">
+   
+   
+  <TextView
+       android:id="@+id/textview2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/textview1"
+       android:layout_centerHorizontal="true"
+       android:text="LEOS"
+       android:textColor="#ffffff"
+       android:textSize="24dp" />
+  
+  <TextView
+       android:id="@+id/textview1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="19dp"
+       android:text="Material Gatepass"
+       android:textColor="#ffffff"
+       android:textSize="24dp" />
+  
+  <EditText
+        android:id="@+id/editText1"
+        android:drawableLeft="@drawable/un"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff" 
+        android:textColor="#ffffff">
+         <requestFocus />
+   </EditText>
+
+   <EditText
+       android:id="@+id/editText3"
+       android:drawableLeft="@drawable/otp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/button1"
+       android:layout_alignLeft="@+id/textview"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentStart="true"
+       android:ems="10"
+       android:hint="Enter OTP"
+       android:textColorHighlight="#ffffff"
+       android:textColorHint="#ffffff"
+       android:textColor="#ffffff" >
+   </EditText>
+   
+    
+   <EditText
+       android:id="@+id/editText2"
+       android:drawableLeft="@drawable/pass1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/editText3"
+       android:layout_alignEnd="@+id/editText3"
+       android:layout_alignLeft="@+id/editText3"
+       android:layout_alignParentStart="true"
+       android:layout_alignRight="@+id/editText3"
+       android:layout_marginBottom="14dp"
+       android:ems="10"
+       android:hint="Password"
+       android:inputType="textPassword"
+       android:textColorHighlight="#ffffff"
+       android:textColorHint="#ffffff" 
+       android:textColor="#ffffff" >>
+  </EditText>
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/textview2"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="24dp"
+       android:src="@drawable/isro" />
+
+   <Button
+       android:id="@+id/button1"
+       android:background="@drawable/button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/editText3"
+       android:layout_alignParentBottom="true"
+       android:layout_alignRight="@+id/editText3"
+       android:layout_marginBottom="16dp"
+       android:onClick="onClick"
+       android:textColor="#ffffff"
+       android:text="Login" />
+
+</RelativeLayout>
