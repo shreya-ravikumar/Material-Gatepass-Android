@@ -21,4 +21,6 @@ The android app has the following functionalities :
 2.Approvals
 3.Notifications 
 
+https://cloud.githubusercontent.com/assets/22842061/23075195/87bb9cc0-f509-11e6-8769-bd2c327ec832.png
+
  
