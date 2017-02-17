@@ -21,6 +21,9 @@ The android app has the following functionalities :
 2.Approvals
 3.Notifications 
 
-https://cloud.githubusercontent.com/assets/22842061/23075195/87bb9cc0-f509-11e6-8769-bd2c327ec832.png
+![Login](https://cloud.githubusercontent.com/assets/22842061/23075195/87bb9cc0-f509-11e6-8769-bd2c327ec832.png "Login Screen")
+![loginsucsess](https://cloud.githubusercontent.com/assets/22842061/23075576/0c0864a8-f50b-11e6-8778-d0472ed085d4.png)
+
+
 
  
